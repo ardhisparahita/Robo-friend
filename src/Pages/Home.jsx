@@ -36,7 +36,8 @@ const Home = () => {
 
   return (
     <div className='tc'>
-      <h1>Selamat datang, {data?.data.email}</h1>  
+      <img alt='pp' src={data?.data?.photo}/>
+      <h1>Selamat datang, {data?.data?.name}</h1>  
       <h1>Robofriend</h1>
       <SearchBox searchChange={onSearchChange}/>
       <CardList robots={filteredRobots}/>

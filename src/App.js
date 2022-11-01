@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './Pages/Home'
+import Login from './Pages/Login'
 
 const App = () => {
   return (
@@ -10,9 +11,7 @@ const App = () => {
       <Route
         path='/'
         element={
-          <div className="App">
-            <a href='https://fadfaasd.herokuapp.com/api/v1/auth/google'>Login Google Ardhis Parahita</a>
-          </div>
+          <Login/>
         }/>
         <Route
           path='/:token'
