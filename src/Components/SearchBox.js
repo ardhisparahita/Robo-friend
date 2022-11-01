@@ -1,6 +1,7 @@
 import React from 'react'
 
 const SearchBox = (props) => {
+  // eslint-disable-next-line
   const {searchfield, searchChange } = props
   return (
     <div className='pa2'>
