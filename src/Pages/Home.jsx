@@ -7,7 +7,7 @@ import axios from 'axios'
 import { useEffect } from 'react';
 
 const Home = () => {
-  const{token} = useParams
+  const{token} = useParams()
   const[data, setData] = useState()
 
   const getData = async () => {
