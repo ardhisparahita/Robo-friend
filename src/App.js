@@ -4,6 +4,7 @@ import { listRobots } from './utils/robots';
 import SearchBox from './Components/SearchBox';
 
 const App = () => {
+  // eslint-disable-next-line
   const [robots, setRobots] = useState(listRobots)
   const [searchField, setSearchField] = useState("")
 
