@@ -23,18 +23,20 @@ const App = () => {
       <Route
         path='/'
         element={
-          <>
           <div className="App">
             <a href='https://fadfaasd.herokuapp.com/api/v1/auth/google'>Login Google Ardhis Parahita</a>
           </div>
-          <div className='tc'>
-          <h1>Robofriend</h1>
-          <SearchBox searchChange={onSearchChange}/>
-          <CardList robots={filteredRobots}/>
-        </div>
-        </>
         }/>
-        
+        <Route
+          path='/home'
+          element={
+            <div className='tc'>
+            <h1>Robofriend</h1>
+            <SearchBox searchChange={onSearchChange}/>
+            <CardList robots={filteredRobots}/>
+            </div>
+          }
+        />
     </Routes>
     </BrowserRouter>
     
