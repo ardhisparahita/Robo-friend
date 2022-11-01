@@ -28,7 +28,7 @@ const App = () => {
           </div>
         }/>
         <Route
-          path='/home'
+          path='/:token'
           element={
             <div className='tc'>
             <h1>Robofriend</h1>
