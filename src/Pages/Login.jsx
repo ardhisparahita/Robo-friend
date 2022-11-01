@@ -7,7 +7,7 @@ const Login = () => {
   }
   return (
     <div className="App">
-            <Button type='primary' shape='round' size='medium' onClick={() => loginGoogle()}>Login Google</Button>
+            <Button type='primary' shape='round' size='large' onClick={() => loginGoogle()}>Login Google</Button>
           </div>
   )
 }
